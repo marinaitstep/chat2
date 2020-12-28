@@ -1,0 +1,74 @@
+body{
+    font-family: monospace;
+}
+div{
+    
+    float: left;
+    width: 200px;
+    border: 1px;
+    box-shadow: 2px 2px 2px 1px gray, -2px -2px 2px 1px gray;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+.price{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+#hr1{
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+#hr2{
+    border: 1px;
+    border-style: solid;
+    border-color: orange;
+}
+#hr3{
+    border: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+#hr4{
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+}
+.gr{
+    color: gray;
+}
+#b1{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+#b2{
+    padding: 10px 20px 10px 20px;
+    background-color: orange;
+    border-radius: 5px;
+}
+#b3{
+    padding: 10px 20px 10px 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+#b4{
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    border-radius: 5px;
+}
+div:hover{
+    transition: 1s; 
+    transform: scale(1.2, 1.2);
+}
